@@ -29,7 +29,7 @@ public class PascalTriangle{
 			}
 		}
 		else{
-			System.out.println("Error");
+			System.out.println("Error, но конечно же Дина супер)");
 		}
 	}
 }

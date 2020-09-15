@@ -28,9 +28,12 @@ public class PascalTriangle{
 				System.out.println(p[i][i]);
 			}
 		}
-		else{
+		else if(n < 0){
 			System.out.println("Error, но конечно же Дина супер)");
 			System.out.println("ghtuhgu");
+		}
+		else{
+			System.out.println("Hello");
 		}
 	}
 }

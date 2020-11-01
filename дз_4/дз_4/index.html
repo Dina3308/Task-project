@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My program</title>
+    <script>
+        function playRed(){
+            document.body.style.backgroundColor="red";
+        }
+        function playBlue(){
+            document.body.style.backgroundColor="blue";
+        }
+        function playGreen() {
+            document.body.style.backgroundColor = "green";
+        }
+        let count = 0;
+        function playRgb(){
+            count++;
+            if(count === 1){
+                playRed();
+            }
+            else if (count === 2){
+                playBlue();
+            }
+            else{
+                playGreen();
+                count = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Нажмите" onclick="playRed()" style="background-color: red">
+    <input type="button" value="Нажмите" onclick="playBlue()" style="background-color: blue">
+    <input type="button" value="Нажмите" onclick="playGreen()" style="background-color: green">
+    <input type="button" value="Нажмите" onclick="playRgb()">
+</body>
+</html>

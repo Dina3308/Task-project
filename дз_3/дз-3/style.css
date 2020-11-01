@@ -1,0 +1,17 @@
+
+.navbar-brand img {
+    width: 15%;
+}
+.cupcake{
+    max-width: 30%;
+    float: left;
+    padding-right: 2%;
+    margin-top: 2%;
+}
+.container p{
+    margin-top: 2%;
+}
+
+.btn-primary{
+    background-color: #78DBE2;
+}
